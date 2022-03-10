@@ -69,7 +69,7 @@ export default UserPosts;
 export const getStaticPaths: GetStaticPaths = async () => {
   // Get the paths we want to pre-render based on users
   const { data: users } = await Axios.get(
-    `https://teste-monitoramento-api.herokuapp.com/users`
+    `https://teste-monitoramento-backend.herokuapp.com/users`
   );
 
   const paths = users.map(user => ({
@@ -88,10 +88,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   try {
     const userId = params?.id;
     const { data: posts } = await Axios.get(
-      `https://teste-monitoramento-api.herokuapp.com/users/${userId}/posts`
+      `https://teste-monitoramento-backend.herokuapp.com/users/${userId}/posts`
     );
     const { data: user } = await Axios.get(
-      `https://teste-monitoramento-api.herokuapp.com/users/${userId}`
+      `https://teste-monitoramento-backend.herokuapp.com/users/${userId}`
     );
     return { props: { posts, user } };
   } catch (err: any) {

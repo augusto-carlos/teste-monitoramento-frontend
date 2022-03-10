@@ -48,7 +48,7 @@ const IndexPage = ({ users: data }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const { data: users } = await Axios.get(
-    'https://teste-monitoramento-api.herokuapp.com/users'
+    'https://teste-monitoramento-backend.herokuapp.com/users'
   );
   return { props: { users } };
 };
