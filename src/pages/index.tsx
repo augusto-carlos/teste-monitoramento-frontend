@@ -36,7 +36,7 @@ const IndexPage = ({ users: data }) => {
           onChange={searchUsersByGroup}
         />
       </section>
-      <main className="grid grid-cols-6 gap-2 p-4 min-h-screen">
+      <main className="grid grid-cols-2 md:grid-cols-6 gap-2 p-4 min-h-screen">
         <aside></aside>
         <div className="col-span-4">
           <List items={users} />

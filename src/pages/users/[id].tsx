@@ -15,8 +15,8 @@ const UserPosts = ({ user, errors, posts }: Props) => {
   if (errors) {
     return (
       <Layout title="Error">
-        <p>
-          <span className="text-red-300">Error:</span> {errors}
+        <p className="min-h-screen text-center">
+          <span className="text-slate-700">Error: {errors}</span>
         </p>
       </Layout>
     );
@@ -44,7 +44,7 @@ const UserPosts = ({ user, errors, posts }: Props) => {
             Postagens
           </h3>
 
-          <ul className="grid grid-cols-2 gap-4 justify-center">
+          <ul className="grid grid-cols-1 md:grid-cols-2  gap-4 justify-center">
             {posts.map(post => (
               <li key={post.id}>
                 <div className="p-4">
