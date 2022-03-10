@@ -24,7 +24,7 @@ const IndexPage = ({ users: data }) => {
   return (
     <Layout title="Monitorameto de grupos emprasariais">
       <section className="flex flex-col justify-center items-center">
-        <h1 className="text-slate-700 text-center my-4 font-black text-3xl">
+        <h1 className="text-slate-700 text-center my-4 font-black text-xl md:text-3xl">
           Busque por usuários
           <br />
           apartir de seus grupos empresariais
@@ -36,7 +36,7 @@ const IndexPage = ({ users: data }) => {
           onChange={searchUsersByGroup}
         />
       </section>
-      <main className="grid grid-cols-2 md:grid-cols-6 gap-2 p-4 min-h-screen">
+      <main className="grid grid-cols-6 gap-2 p-4 min-h-screen">
         <aside></aside>
         <div className="col-span-4">
           <List items={users} />
