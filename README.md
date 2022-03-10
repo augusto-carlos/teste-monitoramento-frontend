@@ -7,16 +7,16 @@
   </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/augusto-carlos/teste-monitoramento">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/augusto-carlos/teste-monitoramento-frontend">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/augusto-carlos/teste-monitoramento">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/augusto-carlos/teste-monitoramento-frontend">
   
   <a href="https://github.com/augusto-carlos/teste-monitoramento/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/augusto-carlos/teste-monitoramento">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/augusto-carlos/teste-monitoramento-frontend">
   </a>
 
   <a href="https://github.com/augusto-carlos/teste-monitoramento/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/augusto-carlos/teste-monitoramento">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/augusto-carlos/teste-monitoramento-frontend">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
