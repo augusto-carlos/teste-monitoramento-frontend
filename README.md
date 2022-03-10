@@ -21,6 +21,10 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
+
+[![Demo](https://user-images.githubusercontent.com/62240490/157602587-6b6c5366-bfbd-4613-8542-933e1d95e9da.png)](https://user-images.githubusercontent.com/62240490/157602112-ddc9287d-b4c3-4a14-a632-789657d83175.mp4 "Demo")
+
+
 <div align="center">
   
 |              | Framework | Hosting | Architecture | DataSource                                     |
